@@ -19,7 +19,7 @@ pacman -S yacc
 
 To use this program, follow these steps:
 
-### 1. Run the program in your terminal:
+#### 1. Run the program in your terminal:
 #### command:
 ##### Flex command to generate lexer
 flex lexfileName.l
@@ -33,8 +33,8 @@ gcc lex.yy.c y.tab.c
 ##### Command to run the executable
 a.exe
 
-### 2. Enter the quadratic equations in the form "a x^2 + b x + c"  as input of the quadratic equation when prompted.
-### 3. The program will output the roots of the quadratic equation, if any.
+#### 2. Enter the quadratic equations in the form "a x^2 + b x + c"  as input of the quadratic equation when prompted.
+#### 3. The program will output the roots of the quadratic equation, if any.
 
 ## Contributing
 
