@@ -20,17 +20,17 @@ pacman -S yacc
 To use this program, follow these steps:
 
 #### 1. Run the program in your terminal:
-#### command:
-#####  -Flex command to generate lexer
+-command:
+ -Flex command to generate lexer
  flex lexfileName.l
 
-#####  -Bison command to generate parser
+ -Bison command to generate parser
  bison -dy yaccFileName.y
 
-#####  -GCC command to compile lex.yy.c and y.tab.c and generate executable
+ -GCC command to compile lex.yy.c and y.tab.c and generate executable
  gcc lex.yy.c y.tab.c 
 
-#####  -Command to run the executable
+ -Command to run the executable
  a.exe
 
 #### 2. Enter the quadratic equations in the form "a x^2 + b x + c"  as input of the quadratic equation when prompted.
